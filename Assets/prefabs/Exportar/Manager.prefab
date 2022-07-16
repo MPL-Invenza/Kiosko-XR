@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5017907371835138654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5017907371835138648}
+  - component: {fileID: 2254201660665583111}
+  - component: {fileID: 7564644052292499118}
+  - component: {fileID: 7564644052292499105}
+  - component: {fileID: 7564644052292499104}
+  - component: {fileID: 7564644052292499107}
+  - component: {fileID: 7564644052292499106}
+  - component: {fileID: 7564644052292499109}
+  - component: {fileID: 7564644052292499108}
+  - component: {fileID: 7564644052292499110}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5017907371835138648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5988227, y: 1.9040606, z: -0.35062963}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2254201660665583111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f77daa0e17d1e40845d79b2c04884e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  audioSource: {fileID: 0}
+  IP: 
+  IPPanel: {fileID: 0}
+  url: 
+  teachername: 
+  urlsocket: 
+  url_dir: 
+  data:
+    id_devices: 
+    user_id: 
+  conDocentes: {fileID: 0}
+  parent:
+    dataContainer:
+      id_devices: 
+      user_id: 
+  downloadtext: {fileID: 0}
+  Status: {fileID: 0}
+  usertext: {fileID: 0}
+  file_size: 0
+  getsize: 0
+  AsiraResful: {fileID: 0}
+--- !u!114 &7564644052292499118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889367ae60210f645be3e096c65c84a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resWidth: 800
+  resHeight: 600
+  maincam: {fileID: 0}
+  takeHiResShot: 0
+--- !u!114 &7564644052292499105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0f58ee525dd684b8c2fbac93808584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 5017907371835138654}
+  deviceinfo:
+    id: 
+    name: 
+    memory_p: 
+    memory: 
+    drums: 
+    screenshot: []
+  holder:
+    message:
+      id: 
+      name: 
+      memory_p: 
+      memory: 
+      drums: 
+      screenshot: []
+  helper: {fileID: 0}
+--- !u!114 &7564644052292499104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c0004828db9f84d8c55e2a719e9fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 5017907371835138654}
+  fps: 0.3
+--- !u!114 &7564644052292499107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2c168071afe2140bc4f83dffb76bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ElementoDocente: {fileID: 0}
+  statusConexion: {fileID: 0}
+  userInfo: {fileID: 0}
+  conecting: "Buscando Conexi\xF3n con Vroom"
+  disconected: "Detenida Conexi\xF3n con Vroom"
+--- !u!114 &7564644052292499106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3dfbe59988811a4894de9d57c0dc76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7564644052292499109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8a8c8d94ef88840940e01d0ad1a64b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AppsInstalled:
+    appList: []
+  scoreMis: AppList
+  manager: {fileID: 5017907371835138654}
+  andHelp: {fileID: 0}
+  downloadUtils: {fileID: 0}
+  localelement: {fileID: 0}
+  create_Element_sc: {fileID: 0}
+  userMessages: {fileID: 0}
+--- !u!114 &7564644052292499108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2398ab2b90e085a47b88cfc6527b16fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consola: {fileID: 0}
+--- !u!114 &7564644052292499110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017907371835138654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb08e5aeafc5ff4584308700e961180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementCreator: {fileID: 0}
